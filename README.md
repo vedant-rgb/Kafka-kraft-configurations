@@ -29,6 +29,12 @@ Apache Kafka is an **open-source distributed event streaming platform** designed
 
 Kafka operates as a **publish-subscribe messaging system**, where **producers** send messages (events) to **topics**, and **consumers** subscribe to those topics to process the messages. Unlike traditional message queues, Kafka retains messages for a configurable period, allowing consumers to replay or process historical data.
 
+![Kafka Architecture](images/architecture-diagram.jpg)
+---
+![Pub/Sub Model](images/pub-sub.png)
+---
+![Queuing](images/queueing.png)
+
 
 ---
 
